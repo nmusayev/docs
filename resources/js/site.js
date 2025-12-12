@@ -1,6 +1,5 @@
-import { Alpine } from '../../vendor/livewire/livewire/dist/livewire.esm';
+import { Alpine, Livewire } from '../../vendor/livewire/livewire/dist/livewire.esm';
 import intersect from '@alpinejs/intersect';
-import persist from '@alpinejs/persist'
 import './collapsible-side-menu.js';
 import './anchors.js';
 import './cookies.js';
@@ -17,8 +16,7 @@ import './toc-navigation.js';
 
 // Register plugins before starting Alpine
 Alpine.plugin(intersect);
-Alpine.plugin(persist);
 
 // Start Alpine
-Alpine.start();
+Livewire.start();
 window.Alpine = Alpine;
