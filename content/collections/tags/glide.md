@@ -434,7 +434,8 @@ _Note: All Glide generated images are cropped at their focal point, unless you d
 
 
 ### focus_css
-The focal point of the asset, in a format suitable for the background-position CSS property, if one has been set.
+
+You may use the [`focus_css`](/variables/focus_css) variable to get an asset's focal point in a format suitable for the `background-position` CSS property. 
 
 ::tabs
 
